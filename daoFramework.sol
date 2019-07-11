@@ -9,7 +9,7 @@ contract dao{
       address o;
   }
 
-  function reroute(address old, address new_) payable internal{
+  function reroute(address old, address new_) public{
     if (old == address(0)){
       rules.push(new_);
       return;
@@ -23,9 +23,7 @@ contract dao{
   }
 
   function propose(address old, address new_) payable public{
-      p = prop;
-      prop.p = proposal(old, new_);
-      prop.o = msg.sender;
+      new proposal(old, new_);
   }
 }
 
@@ -34,7 +32,7 @@ contract proposal{
   address new_;
   int forVotes;
   int againstVotes;
-  address owner;
+  address payable owner;
   constructor(address _old, address _new_) public{
     old = _old;
     new_ = _new_;
@@ -43,19 +41,19 @@ contract proposal{
     owner = msg.sender;
   }
 
-  function vote(bool forAgainst) public{
+  function vote(bool forAgainst) payable public{
     require(msg.value >= 8);
     owner.transfer(msg.value);
     if (forAgainst) forVotes += 1;
     else againstVotes += 1;
   }
 
-  function verdict() public{
+  function verdict() payable public{
     require(msg.value >= 8);
     owner.transfer(msg.value);
     if (forVotes > againstVotes){
-      owner.reroute(old, new_);
-      selfdestruct(address(this));
+      dao(owner).reroute(old, new_);
+      selfdestruct(address(uint160(address(this))));
     }
   }
 }
