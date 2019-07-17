@@ -1,8 +1,8 @@
 pragma solidity ^0.5.4;
 
-import "@ageor0114/betterbrooklyndao/UniversalSchemes/contracts/UniversalSchemeInterface.sol";
-import "@ageor0114/betterbrooklyndao/Controller/contracts/ControllerInterface.sol";
-import "@ageor0114/betterbrooklyndao/Controller/contracts/Avatar.sol";
+import "./UniversalSchemeInterface.sol";
+import "../../Controller/contracts/Controller/ControllerInterface.sol";
+import "../../Controller/contracts/Controller/Avatar.sol";
 
 
 contract UniversalScheme is UniversalSchemeInterface {
