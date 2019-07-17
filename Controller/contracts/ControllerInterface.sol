@@ -1,7 +1,7 @@
 pragma solidity ^0.5.4;
 
-import "./Avatar.sol";
-import "../globalConstraints/GlobalConstraintInterface.sol";
+import "@ageor0114/betterbrooklyndao/Controller/contracts/Avatar.sol";
+import "@ageor0114/betterbrooklyndao/Controller/contracts/GlobalConstraintInterface.sol";
 
 /**
  * @title Controller contract
