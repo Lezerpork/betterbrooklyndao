@@ -1,8 +1,8 @@
 pragma solidity ^0.5.4;
 
 import "./UniversalScheme.sol";
-import "../controller/UController.sol";
-import "../controller/Controller.sol";
+import "../../Controller/contracts/Controller/UController.sol";
+import "../../Controller/contracts/Controller/Controller.sol";
 
 
 /**

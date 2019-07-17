@@ -1,9 +1,10 @@
 pragma solidity ^0.5.4;
 
-import "@daostack/infra/contracts/votingMachines/IntVoteInterface.sol";
-import "@daostack/infra/contracts/votingMachines/ProposalExecuteInterface.sol";
+import "../../Voting Machine/contracts/VotingMachine/IntVoteInterface.sol";
+import "../../Voting Machine/contracts/VotingMachine/ProposalExecuteInterface.sol";
 import "./UniversalScheme.sol";
-import "../votingMachines/VotingMachineCallbacks.sol";
+import "../../Voting Machine/contracts/VotingMachine/VotingMachineCallbacks.sol";
+
 
 
 /**

@@ -1,6 +1,6 @@
 pragma solidity ^0.5.4;
 
-import "@ageor0114/betterbrooklyndao/Voting Machine/contracts/IERC20.sol";
+import "../IERC20.sol";
 
 interface VotingMachineCallbacksInterface {
     function mintReputation(uint256 _amount, address _beneficiary, bytes32 _proposalId) external returns(bool);
