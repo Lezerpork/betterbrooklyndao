@@ -1,13 +1,13 @@
 pragma solidity ^0.5.4;
 
 import "./IntVoteInterface.sol";
-import { RealMath } from "../libs/RealMath.sol";
+import "../RealMath.sol";
 import "./VotingMachineCallbacksInterface.sol";
 import "./ProposalExecuteInterface.sol";
-import "openzeppelin-solidity/contracts/math/SafeMath.sol";
-import "openzeppelin-solidity/contracts/math/Math.sol";
-import "openzeppelin-solidity/contracts/token/ERC20/IERC20.sol";
-import "openzeppelin-solidity/contracts/utils/Address.sol";
+import "../SafeMath.sol";
+import "../Math.sol";
+import "../IERC20.sol";
+import "../Address.sol";
 
 
 /**
