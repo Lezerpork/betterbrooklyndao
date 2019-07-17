@@ -1,10 +1,10 @@
 pragma solidity ^0.5.4;
 
-import "@daostack/infra/contracts/Reputation.sol";
+import "../../../Voting Machine/contracts/Reputation.sol";
 import "./DAOToken.sol";
-import "openzeppelin-solidity/contracts/ownership/Ownable.sol";
-import "openzeppelin-solidity/contracts/token/ERC20/IERC20.sol";
-import "../libs/SafeERC20.sol";
+import "../Ownable.sol";
+import "../../../Voting Machine/contracts/IERC20.sol";
+import "../SafeERC20.sol";
 
 
 /**

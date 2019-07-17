@@ -1,7 +1,7 @@
 pragma solidity ^0.5.4;
 
 import "./Avatar.sol";
-import "../globalConstraints/GlobalConstraintInterface.sol";
+import "../GlobalConstraintInterface.sol";
 
 /**
  * @title Controller contract
