@@ -4,22 +4,22 @@
   "metadata": "{\"compiler\":{\"version\":\"0.5.8+commit.23d335f2\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/C/Users/Subhan/Desktop/github/betterbrooklyndao/UniversalSchemes/contracts/UniversalScheme.sol\":\"UniversalScheme\"},\"evmVersion\":\"petersburg\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/C/Users/Subhan/Desktop/github/betterbrooklyndao/Controller/contracts/Controller/Avatar.sol\":{\"keccak256\":\"0xaa2d034051aefd4f2d07b518f1b61bf9350b53b634c7aa7b4632962d0dc2b351\",\"urls\":[\"bzzr://ab6c140fa916bde126d187f6d2606f175e4eea07e5654a58ae8ec793f3ef067d\"]},\"/C/Users/Subhan/Desktop/github/betterbrooklyndao/Controller/contracts/Controller/ControllerInterface.sol\":{\"keccak256\":\"0x9af304da70214d26aacffbfa5dd8b850360223fdf6d8722fa1ccba5843d98dc2\",\"urls\":[\"bzzr://eab8e90d7f0328996ecbdd7fe72a7c9f96f126c725c8b8d3469ff16624821b0b\"]},\"/C/Users/Subhan/Desktop/github/betterbrooklyndao/Controller/contracts/Controller/DAOToken.sol\":{\"keccak256\":\"0x5a97ba6d0cb0a4a58bbe9d1d1143c5065cb6ff690c79751d32cb36c1cdfb4b90\",\"urls\":[\"bzzr://3f0471700ed3611629c033ddb9ba61a2a969546852640c25848cfaee076de86a\"]},\"/C/Users/Subhan/Desktop/github/betterbrooklyndao/Controller/contracts/ERC20.sol\":{\"keccak256\":\"0x373268e5a067113a58931ea0dbd25c0c2ce31643736ec8898a0c90c7fc8a467c\",\"urls\":[\"bzzr://0f6e1fbab5dc8c6d93657e5d65bff4d4dd5034ec7f831ddceb6ed8bcac51eaa0\"]},\"/C/Users/Subhan/Desktop/github/betterbrooklyndao/Controller/contracts/ERC20Burnable.sol\":{\"keccak256\":\"0x60e3850c4ed7c530293937859759f057276f017419a4032d803a868fcca5be0d\",\"urls\":[\"bzzr://37bdc7153358f9d2f82a37559a70cad9cf99c8364e9eb17de411d8cc2ced862a\"]},\"/C/Users/Subhan/Desktop/github/betterbrooklyndao/Controller/contracts/GlobalConstraintInterface.sol\":{\"keccak256\":\"0x02e0cdcce8fa74c06dcc0bac2a8745f1d0a0944edf6b53252fef8bf422d9d62c\",\"urls\":[\"bzzr://53e1ca25767c5556d3300383400549a29b74208906a37e7303f72913f0462662\"]},\"/C/Users/Subhan/Desktop/github/betterbrooklyndao/Controller/contracts/Ownable.sol\":{\"keccak256\":\"0x74b990525088306da1c4678719333b0e909173dd39959cd347d7800e0d42cb9c\",\"urls\":[\"bzzr://180ff115d4db73e8ed2fadef5b366616383a20746131f5c81f1d77dab5fb487e\"]},\"/C/Users/Subhan/Desktop/github/betterbrooklyndao/Controller/contracts/SafeERC20.sol\":{\"keccak256\":\"0x2c68fc847bc8c0daf1d429b6cc54ac6bddeeef85b3f99cc95b819f3b20538ad6\",\"urls\":[\"bzzr://0dc3ca8645b55a442dd94dcf520b27b35b8b1f927d3610c3aad59bd392510f02\"]},\"/C/Users/Subhan/Desktop/github/betterbrooklyndao/UniversalSchemes/contracts/UniversalScheme.sol\":{\"keccak256\":\"0xae66e9d2e8714ca45b9890937e9261b297eee66f4f6bfdf496bee1fbfb58fce7\",\"urls\":[\"bzzr://63fcf5cfd3830a2300fd4ba70b5701c39c632bd8f51158c6e01cf3d82412003d\"]},\"/C/Users/Subhan/Desktop/github/betterbrooklyndao/UniversalSchemes/contracts/UniversalSchemeInterface.sol\":{\"keccak256\":\"0x0c1780a4f2dbed4c0509065d9def7d8c0c014e95a9013de44b1ec0e08ca00695\",\"urls\":[\"bzzr://9a74baf66a0652809c9a06d9a6fb71f6d926583118311611b61df5a06af08b63\"]},\"/C/Users/Subhan/Desktop/github/betterbrooklyndao/Voting-Machine/contracts/Address.sol\":{\"keccak256\":\"0x7a32ab4f10befb43e6715f38a003c90d0525ff7c6be5f81d82d5ebcb6ed47873\",\"urls\":[\"bzzr://59a69c8ce703790da40de0d2add97a7cb441f24ad24922d87c75b76a33b17915\"]},\"/C/Users/Subhan/Desktop/github/betterbrooklyndao/Voting-Machine/contracts/IERC20.sol\":{\"keccak256\":\"0x5b185339d0d372fc6ce6fcc1b57bd9bdc893026ba43745bf00de23cc9605595b\",\"urls\":[\"bzzr://2eea795b0c3b747f996d59cb1fa32d9e6801184a061bb9b0a8bc5ae0b2d87797\"]},\"/C/Users/Subhan/Desktop/github/betterbrooklyndao/Voting-Machine/contracts/Reputation.sol\":{\"keccak256\":\"0xd6faebc7c1b9384a2a3f34f864112f35691d8f375ee4f11530e1ed0d3e490e01\",\"urls\":[\"bzzr://69de5b945247cd7957931164d4e2579c0fe5da1b4c79527d4e44a9be46963162\"]},\"/C/Users/Subhan/Desktop/github/betterbrooklyndao/Voting-Machine/contracts/SafeMath.sol\":{\"keccak256\":\"0xf569fc2f5b2aeab257caf413966746a267fe7e478e3226ae877d249de77b91c6\",\"urls\":[\"bzzr://10615c37e61357ee71ecde7ea9a688e770a88fee20cfddfc9bce43203e971b32\"]}},\"version\":1}",
   "bytecode": "0x6080604052348015600f57600080fd5b50603580601d6000396000f3fe6080604052600080fdfea165627a7a723058200145374a1a57b9087a2b9ef60bae0a7d0ceaa53d9488250a9b198822aaaeb1090029",
   "deployedBytecode": "0x6080604052600080fdfea165627a7a723058200145374a1a57b9087a2b9ef60bae0a7d0ceaa53d9488250a9b198822aaaeb1090029",
-  "sourceMap": "199:490:18:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;199:490:18;;;;;;;",
-  "deployedSourceMap": "199:490:18:-;;;;;",
+  "sourceMap": "199:490:8:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;199:490:8;;;;;;;",
+  "deployedSourceMap": "199:490:8:-;;;;;",
   "source": "pragma solidity ^0.5.4;\n\nimport \"./UniversalSchemeInterface.sol\";\nimport \"../../Controller/contracts/Controller/ControllerInterface.sol\";\nimport \"../../Controller/contracts/Controller/Avatar.sol\";\n\n\ncontract UniversalScheme is UniversalSchemeInterface {\n    /**\n    *  @dev get the parameters for the current scheme from the controller\n    */\n    function getParametersFromController(Avatar _avatar) internal view returns(bytes32) {\n        require(ControllerInterface(_avatar.owner()).isSchemeRegistered(address(this), address(_avatar)),\n        \"scheme is not registered\");\n        return ControllerInterface(_avatar.owner()).getSchemeParameters(address(this), address(_avatar));\n    }\n}",
   "sourcePath": "C:\\Users\\Subhan\\Desktop\\github\\betterbrooklyndao\\UniversalSchemes\\contracts\\UniversalScheme.sol",
   "ast": {
     "absolutePath": "/C/Users/Subhan/Desktop/github/betterbrooklyndao/UniversalSchemes/contracts/UniversalScheme.sol",
     "exportedSymbols": {
       "UniversalScheme": [
-        8505
+        1428
       ]
     },
-    "id": 8506,
+    "id": 1429,
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 8460,
+        "id": 1383,
         "literals": [
           "solidity",
           "^",
@@ -27,38 +27,38 @@
           ".4"
         ],
         "nodeType": "PragmaDirective",
-        "src": "0:23:18"
+        "src": "0:23:8"
       },
       {
         "absolutePath": "/C/Users/Subhan/Desktop/github/betterbrooklyndao/UniversalSchemes/contracts/UniversalSchemeInterface.sol",
         "file": "./UniversalSchemeInterface.sol",
-        "id": 8461,
+        "id": 1384,
         "nodeType": "ImportDirective",
-        "scope": 8506,
-        "sourceUnit": 8517,
-        "src": "25:40:18",
+        "scope": 1429,
+        "sourceUnit": 1440,
+        "src": "25:40:8",
         "symbolAliases": [],
         "unitAlias": ""
       },
       {
         "absolutePath": "/C/Users/Subhan/Desktop/github/betterbrooklyndao/Controller/contracts/Controller/ControllerInterface.sol",
         "file": "../../Controller/contracts/Controller/ControllerInterface.sol",
-        "id": 8462,
+        "id": 1385,
         "nodeType": "ImportDirective",
-        "scope": 8506,
-        "sourceUnit": 1969,
-        "src": "66:71:18",
+        "scope": 1429,
+        "sourceUnit": 513,
+        "src": "66:71:8",
         "symbolAliases": [],
         "unitAlias": ""
       },
       {
         "absolutePath": "/C/Users/Subhan/Desktop/github/betterbrooklyndao/Controller/contracts/Controller/Avatar.sol",
         "file": "../../Controller/contracts/Controller/Avatar.sol",
-        "id": 8463,
+        "id": 1386,
         "nodeType": "ImportDirective",
-        "scope": 8506,
+        "scope": 1429,
         "sourceUnit": 280,
-        "src": "138:58:18",
+        "src": "138:58:8",
         "symbolAliases": [],
         "unitAlias": ""
       },
@@ -68,40 +68,40 @@
             "arguments": null,
             "baseName": {
               "contractScope": null,
-              "id": 8464,
+              "id": 1387,
               "name": "UniversalSchemeInterface",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 8516,
-              "src": "227:24:18",
+              "referencedDeclaration": 1439,
+              "src": "227:24:8",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_UniversalSchemeInterface_$8516",
+                "typeIdentifier": "t_contract$_UniversalSchemeInterface_$1439",
                 "typeString": "contract UniversalSchemeInterface"
               }
             },
-            "id": 8465,
+            "id": 1388,
             "nodeType": "InheritanceSpecifier",
-            "src": "227:24:18"
+            "src": "227:24:8"
           }
         ],
         "contractDependencies": [
-          8516
+          1439
         ],
         "contractKind": "contract",
         "documentation": null,
         "fullyImplemented": true,
-        "id": 8505,
+        "id": 1428,
         "linearizedBaseContracts": [
-          8505,
-          8516
+          1428,
+          1439
         ],
         "name": "UniversalScheme",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
             "body": {
-              "id": 8503,
+              "id": 1426,
               "nodeType": "Block",
-              "src": "431:256:18",
+              "src": "431:256:8",
               "statements": [
                 {
                   "expression": {
@@ -115,14 +115,14 @@
                             "arguments": [
                               {
                                 "argumentTypes": null,
-                                "id": 8480,
+                                "id": 1403,
                                 "name": "this",
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [],
-                                "referencedDeclaration": 13941,
-                                "src": "513:4:18",
+                                "referencedDeclaration": 7040,
+                                "src": "513:4:8",
                                 "typeDescriptions": {
-                                  "typeIdentifier": "t_contract$_UniversalScheme_$8505",
+                                  "typeIdentifier": "t_contract$_UniversalScheme_$1428",
                                   "typeString": "contract UniversalScheme"
                                 }
                               }
@@ -130,24 +130,24 @@
                             "expression": {
                               "argumentTypes": [
                                 {
-                                  "typeIdentifier": "t_contract$_UniversalScheme_$8505",
+                                  "typeIdentifier": "t_contract$_UniversalScheme_$1428",
                                   "typeString": "contract UniversalScheme"
                                 }
                               ],
-                              "id": 8479,
+                              "id": 1402,
                               "isConstant": false,
                               "isLValue": false,
                               "isPure": true,
                               "lValueRequested": false,
                               "nodeType": "ElementaryTypeNameExpression",
-                              "src": "505:7:18",
+                              "src": "505:7:8",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_type$_t_address_$",
                                 "typeString": "type(address)"
                               },
                               "typeName": "address"
                             },
-                            "id": 8481,
+                            "id": 1404,
                             "isConstant": false,
                             "isLValue": false,
                             "isPure": false,
@@ -155,7 +155,7 @@
                             "lValueRequested": false,
                             "names": [],
                             "nodeType": "FunctionCall",
-                            "src": "505:13:18",
+                            "src": "505:13:8",
                             "typeDescriptions": {
                               "typeIdentifier": "t_address",
                               "typeString": "address"
@@ -166,12 +166,12 @@
                             "arguments": [
                               {
                                 "argumentTypes": null,
-                                "id": 8483,
+                                "id": 1406,
                                 "name": "_avatar",
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [],
-                                "referencedDeclaration": 8467,
-                                "src": "528:7:18",
+                                "referencedDeclaration": 1390,
+                                "src": "528:7:8",
                                 "typeDescriptions": {
                                   "typeIdentifier": "t_contract$_Avatar_$279",
                                   "typeString": "contract Avatar"
@@ -185,20 +185,20 @@
                                   "typeString": "contract Avatar"
                                 }
                               ],
-                              "id": 8482,
+                              "id": 1405,
                               "isConstant": false,
                               "isLValue": false,
                               "isPure": true,
                               "lValueRequested": false,
                               "nodeType": "ElementaryTypeNameExpression",
-                              "src": "520:7:18",
+                              "src": "520:7:8",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_type$_t_address_$",
                                 "typeString": "type(address)"
                               },
                               "typeName": "address"
                             },
-                            "id": 8484,
+                            "id": 1407,
                             "isConstant": false,
                             "isLValue": false,
                             "isPure": false,
@@ -206,7 +206,7 @@
                             "lValueRequested": false,
                             "names": [],
                             "nodeType": "FunctionCall",
-                            "src": "520:16:18",
+                            "src": "520:16:8",
                             "typeDescriptions": {
                               "typeIdentifier": "t_address_payable",
                               "typeString": "address payable"
@@ -234,32 +234,32 @@
                                   "argumentTypes": [],
                                   "expression": {
                                     "argumentTypes": null,
-                                    "id": 8474,
+                                    "id": 1397,
                                     "name": "_avatar",
                                     "nodeType": "Identifier",
                                     "overloadedDeclarations": [],
-                                    "referencedDeclaration": 8467,
-                                    "src": "469:7:18",
+                                    "referencedDeclaration": 1390,
+                                    "src": "469:7:8",
                                     "typeDescriptions": {
                                       "typeIdentifier": "t_contract$_Avatar_$279",
                                       "typeString": "contract Avatar"
                                     }
                                   },
-                                  "id": 8475,
+                                  "id": 1398,
                                   "isConstant": false,
                                   "isLValue": false,
                                   "isPure": false,
                                   "lValueRequested": false,
                                   "memberName": "owner",
                                   "nodeType": "MemberAccess",
-                                  "referencedDeclaration": 4329,
-                                  "src": "469:13:18",
+                                  "referencedDeclaration": 1084,
+                                  "src": "469:13:8",
                                   "typeDescriptions": {
                                     "typeIdentifier": "t_function_external_view$__$returns$_t_address_$",
                                     "typeString": "function () view external returns (address)"
                                   }
                                 },
-                                "id": 8476,
+                                "id": 1399,
                                 "isConstant": false,
                                 "isLValue": false,
                                 "isPure": false,
@@ -267,7 +267,7 @@
                                 "lValueRequested": false,
                                 "names": [],
                                 "nodeType": "FunctionCall",
-                                "src": "469:15:18",
+                                "src": "469:15:8",
                                 "typeDescriptions": {
                                   "typeIdentifier": "t_address",
                                   "typeString": "address"
@@ -281,18 +281,18 @@
                                   "typeString": "address"
                                 }
                               ],
-                              "id": 8473,
+                              "id": 1396,
                               "name": "ControllerInterface",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 1968,
-                              "src": "449:19:18",
+                              "referencedDeclaration": 512,
+                              "src": "449:19:8",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_type$_t_contract$_ControllerInterface_$1968_$",
+                                "typeIdentifier": "t_type$_t_contract$_ControllerInterface_$512_$",
                                 "typeString": "type(contract ControllerInterface)"
                               }
                             },
-                            "id": 8477,
+                            "id": 1400,
                             "isConstant": false,
                             "isLValue": false,
                             "isPure": false,
@@ -300,27 +300,27 @@
                             "lValueRequested": false,
                             "names": [],
                             "nodeType": "FunctionCall",
-                            "src": "449:36:18",
+                            "src": "449:36:8",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_contract$_ControllerInterface_$1968",
+                              "typeIdentifier": "t_contract$_ControllerInterface_$512",
                               "typeString": "contract ControllerInterface"
                             }
                           },
-                          "id": 8478,
+                          "id": 1401,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": false,
                           "lValueRequested": false,
                           "memberName": "isSchemeRegistered",
                           "nodeType": "MemberAccess",
-                          "referencedDeclaration": 1922,
-                          "src": "449:55:18",
+                          "referencedDeclaration": 466,
+                          "src": "449:55:8",
                           "typeDescriptions": {
                             "typeIdentifier": "t_function_external_view$_t_address_$_t_address_$returns$_t_bool_$",
                             "typeString": "function (address,address) view external returns (bool)"
                           }
                         },
-                        "id": 8485,
+                        "id": 1408,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -328,7 +328,7 @@
                         "lValueRequested": false,
                         "names": [],
                         "nodeType": "FunctionCall",
-                        "src": "449:88:18",
+                        "src": "449:88:8",
                         "typeDescriptions": {
                           "typeIdentifier": "t_bool",
                           "typeString": "bool"
@@ -337,14 +337,14 @@
                       {
                         "argumentTypes": null,
                         "hexValue": "736368656d65206973206e6f742072656769737465726564",
-                        "id": 8486,
+                        "id": 1409,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": true,
                         "kind": "string",
                         "lValueRequested": false,
                         "nodeType": "Literal",
-                        "src": "547:26:18",
+                        "src": "547:26:8",
                         "subdenomination": null,
                         "typeDescriptions": {
                           "typeIdentifier": "t_stringliteral_f49accaed0fc85cca97fe84c1d1aed7770001ae630847b7bcf2d35045e44c8d1",
@@ -364,21 +364,21 @@
                           "typeString": "literal_string \"scheme is not registered\""
                         }
                       ],
-                      "id": 8472,
+                      "id": 1395,
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        13896,
-                        13897
+                        7003,
+                        7004
                       ],
-                      "referencedDeclaration": 13897,
-                      "src": "441:7:18",
+                      "referencedDeclaration": 7004,
+                      "src": "441:7:8",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
                         "typeString": "function (bool,string memory) pure"
                       }
                     },
-                    "id": 8487,
+                    "id": 1410,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -386,15 +386,15 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "441:133:18",
+                    "src": "441:133:8",
                     "typeDescriptions": {
                       "typeIdentifier": "t_tuple$__$",
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 8488,
+                  "id": 1411,
                   "nodeType": "ExpressionStatement",
-                  "src": "441:133:18"
+                  "src": "441:133:8"
                 },
                 {
                   "expression": {
@@ -405,14 +405,14 @@
                         "arguments": [
                           {
                             "argumentTypes": null,
-                            "id": 8496,
+                            "id": 1419,
                             "name": "this",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 13941,
-                            "src": "656:4:18",
+                            "referencedDeclaration": 7040,
+                            "src": "656:4:8",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_contract$_UniversalScheme_$8505",
+                              "typeIdentifier": "t_contract$_UniversalScheme_$1428",
                               "typeString": "contract UniversalScheme"
                             }
                           }
@@ -420,24 +420,24 @@
                         "expression": {
                           "argumentTypes": [
                             {
-                              "typeIdentifier": "t_contract$_UniversalScheme_$8505",
+                              "typeIdentifier": "t_contract$_UniversalScheme_$1428",
                               "typeString": "contract UniversalScheme"
                             }
                           ],
-                          "id": 8495,
+                          "id": 1418,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": true,
                           "lValueRequested": false,
                           "nodeType": "ElementaryTypeNameExpression",
-                          "src": "648:7:18",
+                          "src": "648:7:8",
                           "typeDescriptions": {
                             "typeIdentifier": "t_type$_t_address_$",
                             "typeString": "type(address)"
                           },
                           "typeName": "address"
                         },
-                        "id": 8497,
+                        "id": 1420,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -445,7 +445,7 @@
                         "lValueRequested": false,
                         "names": [],
                         "nodeType": "FunctionCall",
-                        "src": "648:13:18",
+                        "src": "648:13:8",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
                           "typeString": "address"
@@ -456,12 +456,12 @@
                         "arguments": [
                           {
                             "argumentTypes": null,
-                            "id": 8499,
+                            "id": 1422,
                             "name": "_avatar",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 8467,
-                            "src": "671:7:18",
+                            "referencedDeclaration": 1390,
+                            "src": "671:7:8",
                             "typeDescriptions": {
                               "typeIdentifier": "t_contract$_Avatar_$279",
                               "typeString": "contract Avatar"
@@ -475,20 +475,20 @@
                               "typeString": "contract Avatar"
                             }
                           ],
-                          "id": 8498,
+                          "id": 1421,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": true,
                           "lValueRequested": false,
                           "nodeType": "ElementaryTypeNameExpression",
-                          "src": "663:7:18",
+                          "src": "663:7:8",
                           "typeDescriptions": {
                             "typeIdentifier": "t_type$_t_address_$",
                             "typeString": "type(address)"
                           },
                           "typeName": "address"
                         },
-                        "id": 8500,
+                        "id": 1423,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -496,7 +496,7 @@
                         "lValueRequested": false,
                         "names": [],
                         "nodeType": "FunctionCall",
-                        "src": "663:16:18",
+                        "src": "663:16:8",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address_payable",
                           "typeString": "address payable"
@@ -524,32 +524,32 @@
                               "argumentTypes": [],
                               "expression": {
                                 "argumentTypes": null,
-                                "id": 8490,
+                                "id": 1413,
                                 "name": "_avatar",
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [],
-                                "referencedDeclaration": 8467,
-                                "src": "611:7:18",
+                                "referencedDeclaration": 1390,
+                                "src": "611:7:8",
                                 "typeDescriptions": {
                                   "typeIdentifier": "t_contract$_Avatar_$279",
                                   "typeString": "contract Avatar"
                                 }
                               },
-                              "id": 8491,
+                              "id": 1414,
                               "isConstant": false,
                               "isLValue": false,
                               "isPure": false,
                               "lValueRequested": false,
                               "memberName": "owner",
                               "nodeType": "MemberAccess",
-                              "referencedDeclaration": 4329,
-                              "src": "611:13:18",
+                              "referencedDeclaration": 1084,
+                              "src": "611:13:8",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_function_external_view$__$returns$_t_address_$",
                                 "typeString": "function () view external returns (address)"
                               }
                             },
-                            "id": 8492,
+                            "id": 1415,
                             "isConstant": false,
                             "isLValue": false,
                             "isPure": false,
@@ -557,7 +557,7 @@
                             "lValueRequested": false,
                             "names": [],
                             "nodeType": "FunctionCall",
-                            "src": "611:15:18",
+                            "src": "611:15:8",
                             "typeDescriptions": {
                               "typeIdentifier": "t_address",
                               "typeString": "address"
@@ -571,18 +571,18 @@
                               "typeString": "address"
                             }
                           ],
-                          "id": 8489,
+                          "id": 1412,
                           "name": "ControllerInterface",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 1968,
-                          "src": "591:19:18",
+                          "referencedDeclaration": 512,
+                          "src": "591:19:8",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_type$_t_contract$_ControllerInterface_$1968_$",
+                            "typeIdentifier": "t_type$_t_contract$_ControllerInterface_$512_$",
                             "typeString": "type(contract ControllerInterface)"
                           }
                         },
-                        "id": 8493,
+                        "id": 1416,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -590,27 +590,27 @@
                         "lValueRequested": false,
                         "names": [],
                         "nodeType": "FunctionCall",
-                        "src": "591:36:18",
+                        "src": "591:36:8",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_ControllerInterface_$1968",
+                          "typeIdentifier": "t_contract$_ControllerInterface_$512",
                           "typeString": "contract ControllerInterface"
                         }
                       },
-                      "id": 8494,
+                      "id": 1417,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
                       "lValueRequested": false,
                       "memberName": "getSchemeParameters",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 1931,
-                      "src": "591:56:18",
+                      "referencedDeclaration": 475,
+                      "src": "591:56:8",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_external_view$_t_address_$_t_address_$returns$_t_bytes32_$",
                         "typeString": "function (address,address) view external returns (bytes32)"
                       }
                     },
-                    "id": 8501,
+                    "id": 1424,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -618,37 +618,37 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "591:89:18",
+                    "src": "591:89:8",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bytes32",
                       "typeString": "bytes32"
                     }
                   },
-                  "functionReturnParameters": 8471,
-                  "id": 8502,
+                  "functionReturnParameters": 1394,
+                  "id": 1425,
                   "nodeType": "Return",
-                  "src": "584:96:18"
+                  "src": "584:96:8"
                 }
               ]
             },
             "documentation": " @dev get the parameters for the current scheme from the controller",
-            "id": 8504,
+            "id": 1427,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
             "name": "getParametersFromController",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 8468,
+              "id": 1391,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 8467,
+                  "id": 1390,
                   "name": "_avatar",
                   "nodeType": "VariableDeclaration",
-                  "scope": 8504,
-                  "src": "384:14:18",
+                  "scope": 1427,
+                  "src": "384:14:8",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -657,11 +657,11 @@
                   },
                   "typeName": {
                     "contractScope": null,
-                    "id": 8466,
+                    "id": 1389,
                     "name": "Avatar",
                     "nodeType": "UserDefinedTypeName",
                     "referencedDeclaration": 279,
-                    "src": "384:6:18",
+                    "src": "384:6:8",
                     "typeDescriptions": {
                       "typeIdentifier": "t_contract$_Avatar_$279",
                       "typeString": "contract Avatar"
@@ -671,19 +671,19 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "383:16:18"
+              "src": "383:16:8"
             },
             "returnParameters": {
-              "id": 8471,
+              "id": 1394,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 8470,
+                  "id": 1393,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 8504,
-                  "src": "422:7:18",
+                  "scope": 1427,
+                  "src": "422:7:8",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -691,10 +691,10 @@
                     "typeString": "bytes32"
                   },
                   "typeName": {
-                    "id": 8469,
+                    "id": 1392,
                     "name": "bytes32",
                     "nodeType": "ElementaryTypeName",
-                    "src": "422:7:18",
+                    "src": "422:7:8",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bytes32",
                       "typeString": "bytes32"
@@ -704,33 +704,33 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "421:9:18"
+              "src": "421:9:8"
             },
-            "scope": 8505,
-            "src": "347:340:18",
+            "scope": 1428,
+            "src": "347:340:8",
             "stateMutability": "view",
-            "superFunction": 8515,
+            "superFunction": 1438,
             "visibility": "internal"
           }
         ],
-        "scope": 8506,
-        "src": "199:490:18"
+        "scope": 1429,
+        "src": "199:490:8"
       }
     ],
-    "src": "0:689:18"
+    "src": "0:689:8"
   },
   "legacyAST": {
     "absolutePath": "/C/Users/Subhan/Desktop/github/betterbrooklyndao/UniversalSchemes/contracts/UniversalScheme.sol",
     "exportedSymbols": {
       "UniversalScheme": [
-        8505
+        1428
       ]
     },
-    "id": 8506,
+    "id": 1429,
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 8460,
+        "id": 1383,
         "literals": [
           "solidity",
           "^",
@@ -738,38 +738,38 @@
           ".4"
         ],
         "nodeType": "PragmaDirective",
-        "src": "0:23:18"
+        "src": "0:23:8"
       },
       {
         "absolutePath": "/C/Users/Subhan/Desktop/github/betterbrooklyndao/UniversalSchemes/contracts/UniversalSchemeInterface.sol",
         "file": "./UniversalSchemeInterface.sol",
-        "id": 8461,
+        "id": 1384,
         "nodeType": "ImportDirective",
-        "scope": 8506,
-        "sourceUnit": 8517,
-        "src": "25:40:18",
+        "scope": 1429,
+        "sourceUnit": 1440,
+        "src": "25:40:8",
         "symbolAliases": [],
         "unitAlias": ""
       },
       {
         "absolutePath": "/C/Users/Subhan/Desktop/github/betterbrooklyndao/Controller/contracts/Controller/ControllerInterface.sol",
         "file": "../../Controller/contracts/Controller/ControllerInterface.sol",
-        "id": 8462,
+        "id": 1385,
         "nodeType": "ImportDirective",
-        "scope": 8506,
-        "sourceUnit": 1969,
-        "src": "66:71:18",
+        "scope": 1429,
+        "sourceUnit": 513,
+        "src": "66:71:8",
         "symbolAliases": [],
         "unitAlias": ""
       },
       {
         "absolutePath": "/C/Users/Subhan/Desktop/github/betterbrooklyndao/Controller/contracts/Controller/Avatar.sol",
         "file": "../../Controller/contracts/Controller/Avatar.sol",
-        "id": 8463,
+        "id": 1386,
         "nodeType": "ImportDirective",
-        "scope": 8506,
+        "scope": 1429,
         "sourceUnit": 280,
-        "src": "138:58:18",
+        "src": "138:58:8",
         "symbolAliases": [],
         "unitAlias": ""
       },
@@ -779,40 +779,40 @@
             "arguments": null,
             "baseName": {
               "contractScope": null,
-              "id": 8464,
+              "id": 1387,
               "name": "UniversalSchemeInterface",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 8516,
-              "src": "227:24:18",
+              "referencedDeclaration": 1439,
+              "src": "227:24:8",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_UniversalSchemeInterface_$8516",
+                "typeIdentifier": "t_contract$_UniversalSchemeInterface_$1439",
                 "typeString": "contract UniversalSchemeInterface"
               }
             },
-            "id": 8465,
+            "id": 1388,
             "nodeType": "InheritanceSpecifier",
-            "src": "227:24:18"
+            "src": "227:24:8"
           }
         ],
         "contractDependencies": [
-          8516
+          1439
         ],
         "contractKind": "contract",
         "documentation": null,
         "fullyImplemented": true,
-        "id": 8505,
+        "id": 1428,
         "linearizedBaseContracts": [
-          8505,
-          8516
+          1428,
+          1439
         ],
         "name": "UniversalScheme",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
             "body": {
-              "id": 8503,
+              "id": 1426,
               "nodeType": "Block",
-              "src": "431:256:18",
+              "src": "431:256:8",
               "statements": [
                 {
                   "expression": {
@@ -826,14 +826,14 @@
                             "arguments": [
                               {
                                 "argumentTypes": null,
-                                "id": 8480,
+                                "id": 1403,
                                 "name": "this",
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [],
-                                "referencedDeclaration": 13941,
-                                "src": "513:4:18",
+                                "referencedDeclaration": 7040,
+                                "src": "513:4:8",
                                 "typeDescriptions": {
-                                  "typeIdentifier": "t_contract$_UniversalScheme_$8505",
+                                  "typeIdentifier": "t_contract$_UniversalScheme_$1428",
                                   "typeString": "contract UniversalScheme"
                                 }
                               }
@@ -841,24 +841,24 @@
                             "expression": {
                               "argumentTypes": [
                                 {
-                                  "typeIdentifier": "t_contract$_UniversalScheme_$8505",
+                                  "typeIdentifier": "t_contract$_UniversalScheme_$1428",
                                   "typeString": "contract UniversalScheme"
                                 }
                               ],
-                              "id": 8479,
+                              "id": 1402,
                               "isConstant": false,
                               "isLValue": false,
                               "isPure": true,
                               "lValueRequested": false,
                               "nodeType": "ElementaryTypeNameExpression",
-                              "src": "505:7:18",
+                              "src": "505:7:8",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_type$_t_address_$",
                                 "typeString": "type(address)"
                               },
                               "typeName": "address"
                             },
-                            "id": 8481,
+                            "id": 1404,
                             "isConstant": false,
                             "isLValue": false,
                             "isPure": false,
@@ -866,7 +866,7 @@
                             "lValueRequested": false,
                             "names": [],
                             "nodeType": "FunctionCall",
-                            "src": "505:13:18",
+                            "src": "505:13:8",
                             "typeDescriptions": {
                               "typeIdentifier": "t_address",
                               "typeString": "address"
@@ -877,12 +877,12 @@
                             "arguments": [
                               {
                                 "argumentTypes": null,
-                                "id": 8483,
+                                "id": 1406,
                                 "name": "_avatar",
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [],
-                                "referencedDeclaration": 8467,
-                                "src": "528:7:18",
+                                "referencedDeclaration": 1390,
+                                "src": "528:7:8",
                                 "typeDescriptions": {
                                   "typeIdentifier": "t_contract$_Avatar_$279",
                                   "typeString": "contract Avatar"
@@ -896,20 +896,20 @@
                                   "typeString": "contract Avatar"
                                 }
                               ],
-                              "id": 8482,
+                              "id": 1405,
                               "isConstant": false,
                               "isLValue": false,
                               "isPure": true,
                               "lValueRequested": false,
                               "nodeType": "ElementaryTypeNameExpression",
-                              "src": "520:7:18",
+                              "src": "520:7:8",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_type$_t_address_$",
                                 "typeString": "type(address)"
                               },
                               "typeName": "address"
                             },
-                            "id": 8484,
+                            "id": 1407,
                             "isConstant": false,
                             "isLValue": false,
                             "isPure": false,
@@ -917,7 +917,7 @@
                             "lValueRequested": false,
                             "names": [],
                             "nodeType": "FunctionCall",
-                            "src": "520:16:18",
+                            "src": "520:16:8",
                             "typeDescriptions": {
                               "typeIdentifier": "t_address_payable",
                               "typeString": "address payable"
@@ -945,32 +945,32 @@
                                   "argumentTypes": [],
                                   "expression": {
                                     "argumentTypes": null,
-                                    "id": 8474,
+                                    "id": 1397,
                                     "name": "_avatar",
                                     "nodeType": "Identifier",
                                     "overloadedDeclarations": [],
-                                    "referencedDeclaration": 8467,
-                                    "src": "469:7:18",
+                                    "referencedDeclaration": 1390,
+                                    "src": "469:7:8",
                                     "typeDescriptions": {
                                       "typeIdentifier": "t_contract$_Avatar_$279",
                                       "typeString": "contract Avatar"
                                     }
                                   },
-                                  "id": 8475,
+                                  "id": 1398,
                                   "isConstant": false,
                                   "isLValue": false,
                                   "isPure": false,
                                   "lValueRequested": false,
                                   "memberName": "owner",
                                   "nodeType": "MemberAccess",
-                                  "referencedDeclaration": 4329,
-                                  "src": "469:13:18",
+                                  "referencedDeclaration": 1084,
+                                  "src": "469:13:8",
                                   "typeDescriptions": {
                                     "typeIdentifier": "t_function_external_view$__$returns$_t_address_$",
                                     "typeString": "function () view external returns (address)"
                                   }
                                 },
-                                "id": 8476,
+                                "id": 1399,
                                 "isConstant": false,
                                 "isLValue": false,
                                 "isPure": false,
@@ -978,7 +978,7 @@
                                 "lValueRequested": false,
                                 "names": [],
                                 "nodeType": "FunctionCall",
-                                "src": "469:15:18",
+                                "src": "469:15:8",
                                 "typeDescriptions": {
                                   "typeIdentifier": "t_address",
                                   "typeString": "address"
@@ -992,18 +992,18 @@
                                   "typeString": "address"
                                 }
                               ],
-                              "id": 8473,
+                              "id": 1396,
                               "name": "ControllerInterface",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 1968,
-                              "src": "449:19:18",
+                              "referencedDeclaration": 512,
+                              "src": "449:19:8",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_type$_t_contract$_ControllerInterface_$1968_$",
+                                "typeIdentifier": "t_type$_t_contract$_ControllerInterface_$512_$",
                                 "typeString": "type(contract ControllerInterface)"
                               }
                             },
-                            "id": 8477,
+                            "id": 1400,
                             "isConstant": false,
                             "isLValue": false,
                             "isPure": false,
@@ -1011,27 +1011,27 @@
                             "lValueRequested": false,
                             "names": [],
                             "nodeType": "FunctionCall",
-                            "src": "449:36:18",
+                            "src": "449:36:8",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_contract$_ControllerInterface_$1968",
+                              "typeIdentifier": "t_contract$_ControllerInterface_$512",
                               "typeString": "contract ControllerInterface"
                             }
                           },
-                          "id": 8478,
+                          "id": 1401,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": false,
                           "lValueRequested": false,
                           "memberName": "isSchemeRegistered",
                           "nodeType": "MemberAccess",
-                          "referencedDeclaration": 1922,
-                          "src": "449:55:18",
+                          "referencedDeclaration": 466,
+                          "src": "449:55:8",
                           "typeDescriptions": {
                             "typeIdentifier": "t_function_external_view$_t_address_$_t_address_$returns$_t_bool_$",
                             "typeString": "function (address,address) view external returns (bool)"
                           }
                         },
-                        "id": 8485,
+                        "id": 1408,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -1039,7 +1039,7 @@
                         "lValueRequested": false,
                         "names": [],
                         "nodeType": "FunctionCall",
-                        "src": "449:88:18",
+                        "src": "449:88:8",
                         "typeDescriptions": {
                           "typeIdentifier": "t_bool",
                           "typeString": "bool"
@@ -1048,14 +1048,14 @@
                       {
                         "argumentTypes": null,
                         "hexValue": "736368656d65206973206e6f742072656769737465726564",
-                        "id": 8486,
+                        "id": 1409,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": true,
                         "kind": "string",
                         "lValueRequested": false,
                         "nodeType": "Literal",
-                        "src": "547:26:18",
+                        "src": "547:26:8",
                         "subdenomination": null,
                         "typeDescriptions": {
                           "typeIdentifier": "t_stringliteral_f49accaed0fc85cca97fe84c1d1aed7770001ae630847b7bcf2d35045e44c8d1",
@@ -1075,21 +1075,21 @@
                           "typeString": "literal_string \"scheme is not registered\""
                         }
                       ],
-                      "id": 8472,
+                      "id": 1395,
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        13896,
-                        13897
+                        7003,
+                        7004
                       ],
-                      "referencedDeclaration": 13897,
-                      "src": "441:7:18",
+                      "referencedDeclaration": 7004,
+                      "src": "441:7:8",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
                         "typeString": "function (bool,string memory) pure"
                       }
                     },
-                    "id": 8487,
+                    "id": 1410,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -1097,15 +1097,15 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "441:133:18",
+                    "src": "441:133:8",
                     "typeDescriptions": {
                       "typeIdentifier": "t_tuple$__$",
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 8488,
+                  "id": 1411,
                   "nodeType": "ExpressionStatement",
-                  "src": "441:133:18"
+                  "src": "441:133:8"
                 },
                 {
                   "expression": {
@@ -1116,14 +1116,14 @@
                         "arguments": [
                           {
                             "argumentTypes": null,
-                            "id": 8496,
+                            "id": 1419,
                             "name": "this",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 13941,
-                            "src": "656:4:18",
+                            "referencedDeclaration": 7040,
+                            "src": "656:4:8",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_contract$_UniversalScheme_$8505",
+                              "typeIdentifier": "t_contract$_UniversalScheme_$1428",
                               "typeString": "contract UniversalScheme"
                             }
                           }
@@ -1131,24 +1131,24 @@
                         "expression": {
                           "argumentTypes": [
                             {
-                              "typeIdentifier": "t_contract$_UniversalScheme_$8505",
+                              "typeIdentifier": "t_contract$_UniversalScheme_$1428",
                               "typeString": "contract UniversalScheme"
                             }
                           ],
-                          "id": 8495,
+                          "id": 1418,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": true,
                           "lValueRequested": false,
                           "nodeType": "ElementaryTypeNameExpression",
-                          "src": "648:7:18",
+                          "src": "648:7:8",
                           "typeDescriptions": {
                             "typeIdentifier": "t_type$_t_address_$",
                             "typeString": "type(address)"
                           },
                           "typeName": "address"
                         },
-                        "id": 8497,
+                        "id": 1420,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -1156,7 +1156,7 @@
                         "lValueRequested": false,
                         "names": [],
                         "nodeType": "FunctionCall",
-                        "src": "648:13:18",
+                        "src": "648:13:8",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
                           "typeString": "address"
@@ -1167,12 +1167,12 @@
                         "arguments": [
                           {
                             "argumentTypes": null,
-                            "id": 8499,
+                            "id": 1422,
                             "name": "_avatar",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 8467,
-                            "src": "671:7:18",
+                            "referencedDeclaration": 1390,
+                            "src": "671:7:8",
                             "typeDescriptions": {
                               "typeIdentifier": "t_contract$_Avatar_$279",
                               "typeString": "contract Avatar"
@@ -1186,20 +1186,20 @@
                               "typeString": "contract Avatar"
                             }
                           ],
-                          "id": 8498,
+                          "id": 1421,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": true,
                           "lValueRequested": false,
                           "nodeType": "ElementaryTypeNameExpression",
-                          "src": "663:7:18",
+                          "src": "663:7:8",
                           "typeDescriptions": {
                             "typeIdentifier": "t_type$_t_address_$",
                             "typeString": "type(address)"
                           },
                           "typeName": "address"
                         },
-                        "id": 8500,
+                        "id": 1423,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -1207,7 +1207,7 @@
                         "lValueRequested": false,
                         "names": [],
                         "nodeType": "FunctionCall",
-                        "src": "663:16:18",
+                        "src": "663:16:8",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address_payable",
                           "typeString": "address payable"
@@ -1235,32 +1235,32 @@
                               "argumentTypes": [],
                               "expression": {
                                 "argumentTypes": null,
-                                "id": 8490,
+                                "id": 1413,
                                 "name": "_avatar",
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [],
-                                "referencedDeclaration": 8467,
-                                "src": "611:7:18",
+                                "referencedDeclaration": 1390,
+                                "src": "611:7:8",
                                 "typeDescriptions": {
                                   "typeIdentifier": "t_contract$_Avatar_$279",
                                   "typeString": "contract Avatar"
                                 }
                               },
-                              "id": 8491,
+                              "id": 1414,
                               "isConstant": false,
                               "isLValue": false,
                               "isPure": false,
                               "lValueRequested": false,
                               "memberName": "owner",
                               "nodeType": "MemberAccess",
-                              "referencedDeclaration": 4329,
-                              "src": "611:13:18",
+                              "referencedDeclaration": 1084,
+                              "src": "611:13:8",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_function_external_view$__$returns$_t_address_$",
                                 "typeString": "function () view external returns (address)"
                               }
                             },
-                            "id": 8492,
+                            "id": 1415,
                             "isConstant": false,
                             "isLValue": false,
                             "isPure": false,
@@ -1268,7 +1268,7 @@
                             "lValueRequested": false,
                             "names": [],
                             "nodeType": "FunctionCall",
-                            "src": "611:15:18",
+                            "src": "611:15:8",
                             "typeDescriptions": {
                               "typeIdentifier": "t_address",
                               "typeString": "address"
@@ -1282,18 +1282,18 @@
                               "typeString": "address"
                             }
                           ],
-                          "id": 8489,
+                          "id": 1412,
                           "name": "ControllerInterface",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 1968,
-                          "src": "591:19:18",
+                          "referencedDeclaration": 512,
+                          "src": "591:19:8",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_type$_t_contract$_ControllerInterface_$1968_$",
+                            "typeIdentifier": "t_type$_t_contract$_ControllerInterface_$512_$",
                             "typeString": "type(contract ControllerInterface)"
                           }
                         },
-                        "id": 8493,
+                        "id": 1416,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -1301,27 +1301,27 @@
                         "lValueRequested": false,
                         "names": [],
                         "nodeType": "FunctionCall",
-                        "src": "591:36:18",
+                        "src": "591:36:8",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_ControllerInterface_$1968",
+                          "typeIdentifier": "t_contract$_ControllerInterface_$512",
                           "typeString": "contract ControllerInterface"
                         }
                       },
-                      "id": 8494,
+                      "id": 1417,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
                       "lValueRequested": false,
                       "memberName": "getSchemeParameters",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 1931,
-                      "src": "591:56:18",
+                      "referencedDeclaration": 475,
+                      "src": "591:56:8",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_external_view$_t_address_$_t_address_$returns$_t_bytes32_$",
                         "typeString": "function (address,address) view external returns (bytes32)"
                       }
                     },
-                    "id": 8501,
+                    "id": 1424,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -1329,37 +1329,37 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "591:89:18",
+                    "src": "591:89:8",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bytes32",
                       "typeString": "bytes32"
                     }
                   },
-                  "functionReturnParameters": 8471,
-                  "id": 8502,
+                  "functionReturnParameters": 1394,
+                  "id": 1425,
                   "nodeType": "Return",
-                  "src": "584:96:18"
+                  "src": "584:96:8"
                 }
               ]
             },
             "documentation": " @dev get the parameters for the current scheme from the controller",
-            "id": 8504,
+            "id": 1427,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
             "name": "getParametersFromController",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 8468,
+              "id": 1391,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 8467,
+                  "id": 1390,
                   "name": "_avatar",
                   "nodeType": "VariableDeclaration",
-                  "scope": 8504,
-                  "src": "384:14:18",
+                  "scope": 1427,
+                  "src": "384:14:8",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1368,11 +1368,11 @@
                   },
                   "typeName": {
                     "contractScope": null,
-                    "id": 8466,
+                    "id": 1389,
                     "name": "Avatar",
                     "nodeType": "UserDefinedTypeName",
                     "referencedDeclaration": 279,
-                    "src": "384:6:18",
+                    "src": "384:6:8",
                     "typeDescriptions": {
                       "typeIdentifier": "t_contract$_Avatar_$279",
                       "typeString": "contract Avatar"
@@ -1382,19 +1382,19 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "383:16:18"
+              "src": "383:16:8"
             },
             "returnParameters": {
-              "id": 8471,
+              "id": 1394,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 8470,
+                  "id": 1393,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 8504,
-                  "src": "422:7:18",
+                  "scope": 1427,
+                  "src": "422:7:8",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1402,10 +1402,10 @@
                     "typeString": "bytes32"
                   },
                   "typeName": {
-                    "id": 8469,
+                    "id": 1392,
                     "name": "bytes32",
                     "nodeType": "ElementaryTypeName",
-                    "src": "422:7:18",
+                    "src": "422:7:8",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bytes32",
                       "typeString": "bytes32"
@@ -1415,20 +1415,20 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "421:9:18"
+              "src": "421:9:8"
             },
-            "scope": 8505,
-            "src": "347:340:18",
+            "scope": 1428,
+            "src": "347:340:8",
             "stateMutability": "view",
-            "superFunction": 8515,
+            "superFunction": 1438,
             "visibility": "internal"
           }
         ],
-        "scope": 8506,
-        "src": "199:490:18"
+        "scope": 1429,
+        "src": "199:490:8"
       }
     ],
-    "src": "0:689:18"
+    "src": "0:689:8"
   },
   "compiler": {
     "name": "solc",
@@ -1436,7 +1436,7 @@
   },
   "networks": {},
   "schemaVersion": "3.0.11",
-  "updatedAt": "2019-07-18T15:03:27.678Z",
+  "updatedAt": "2019-07-18T14:29:14.144Z",
   "devdoc": {
     "methods": {}
   },
