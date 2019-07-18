@@ -1,6 +1,6 @@
 pragma solidity ^0.5.4;
 
-import "../Controller/Ownable.sol";
+import "../../Controller/contracts/Ownable.sol";
 
 
 /*

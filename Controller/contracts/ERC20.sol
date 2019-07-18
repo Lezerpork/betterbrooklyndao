@@ -1,7 +1,7 @@
 pragma solidity ^0.5.0;
 
-import "../../Voting Machine/contracts/IERC20.sol";
-import "../../Voting Machine/contracts/SafeMath.sol";
+import "../../Voting-Machine/contracts/IERC20.sol";
+import "../../Voting-Machine/contracts/SafeMath.sol";
 /**
  * @dev Implementation of the `IERC20` interface.
  *

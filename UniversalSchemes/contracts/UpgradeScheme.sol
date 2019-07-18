@@ -1,9 +1,9 @@
 pragma solidity ^0.5.4;
 
-import "../../Voting Machine/contracts/VotingMachine/IntVoteInterface.sol";
-import "../../Voting Machine/contracts/VotingMachine/ProposalExecuteInterface.sol";
+import "../../Voting-Machine/contracts/VotingMachine/IntVoteInterface.sol";
+import "../../Voting-Machine/contracts/VotingMachine/ProposalExecuteInterface.sol";
 import "./UniversalScheme.sol";
-import "../../Voting Machine/contracts/VotingMachine/VotingMachineCallbacks.sol";
+import "../../Voting-Machine/contracts/VotingMachine/VotingMachineCallbacks.sol";
 
 
 

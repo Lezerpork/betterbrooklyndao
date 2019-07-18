@@ -1,6 +1,6 @@
 pragma solidity ^0.5.4;
 
-import "../../universalSchemes/contracts/UniversalScheme.sol";
+import "../../../UniversalSchemes/contracts/UniversalScheme.sol";
 import "./GenesisProtocol.sol";
 
 

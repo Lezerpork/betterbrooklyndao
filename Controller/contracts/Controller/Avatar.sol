@@ -1,9 +1,9 @@
 pragma solidity ^0.5.4;
 
-import "../../../Voting Machine/contracts/Reputation.sol";
+import "../../../Voting-Machine/contracts/Reputation.sol";
 import "./DAOToken.sol";
 import "../Ownable.sol";
-import "../../../Voting Machine/contracts/IERC20.sol";
+import "../../../Voting-Machine/contracts/IERC20.sol";
 import "../SafeERC20.sol";
 
 

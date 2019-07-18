@@ -1,7 +1,7 @@
 pragma solidity ^0.5.4;
 
 import "../ERC20Burnable.sol";
-import "../../../Voting Machine/contracts/IERC20.sol";
+import "../../../Voting-Machine/contracts/IERC20.sol";
 import "../Ownable.sol";
 
 

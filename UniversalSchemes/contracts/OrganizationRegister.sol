@@ -1,7 +1,7 @@
 pragma solidity ^0.5.4;
 
 import "./UniversalScheme.sol";
-import "../../Controller/SafeERC20.sol";
+import "../../Controller/contracts/SafeERC20.sol";
 
 /**
  * @title A universal organization registry.

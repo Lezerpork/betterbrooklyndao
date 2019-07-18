@@ -1,0 +1,882 @@
+{
+  "contractName": "GlobalConstraintInterface",
+  "abi": [
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "_scheme",
+          "type": "address"
+        },
+        {
+          "name": "_params",
+          "type": "bytes32"
+        },
+        {
+          "name": "_method",
+          "type": "bytes32"
+        }
+      ],
+      "name": "pre",
+      "outputs": [
+        {
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "_scheme",
+          "type": "address"
+        },
+        {
+          "name": "_params",
+          "type": "bytes32"
+        },
+        {
+          "name": "_method",
+          "type": "bytes32"
+        }
+      ],
+      "name": "post",
+      "outputs": [
+        {
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [],
+      "name": "when",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint8"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "metadata": "{\"compiler\":{\"version\":\"0.5.8+commit.23d335f2\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":false,\"inputs\":[{\"name\":\"_scheme\",\"type\":\"address\"},{\"name\":\"_params\",\"type\":\"bytes32\"},{\"name\":\"_method\",\"type\":\"bytes32\"}],\"name\":\"post\",\"outputs\":[{\"name\":\"\",\"type\":\"bool\"}],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"name\":\"_scheme\",\"type\":\"address\"},{\"name\":\"_params\",\"type\":\"bytes32\"},{\"name\":\"_method\",\"type\":\"bytes32\"}],\"name\":\"pre\",\"outputs\":[{\"name\":\"\",\"type\":\"bool\"}],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[],\"name\":\"when\",\"outputs\":[{\"name\":\"\",\"type\":\"uint8\"}],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{\"when()\":{\"details\":\"when return if this globalConstraints is pre, post or both.\",\"return\":\"CallPhase enum indication  Pre, Post or PreAndPost.\"}}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/C/Users/Subhan/Desktop/github/betterbrooklyndao/Controller/contracts/GlobalConstraintInterface.sol\":\"GlobalConstraintInterface\"},\"evmVersion\":\"petersburg\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/C/Users/Subhan/Desktop/github/betterbrooklyndao/Controller/contracts/GlobalConstraintInterface.sol\":{\"keccak256\":\"0x02e0cdcce8fa74c06dcc0bac2a8745f1d0a0944edf6b53252fef8bf422d9d62c\",\"urls\":[\"bzzr://53e1ca25767c5556d3300383400549a29b74208906a37e7303f72913f0462662\"]}},\"version\":1}",
+  "bytecode": "0x",
+  "deployedBytecode": "0x",
+  "sourceMap": "",
+  "deployedSourceMap": "",
+  "source": "pragma solidity ^0.5.4;\n\n\ncontract GlobalConstraintInterface {\n\n    enum CallPhase { Pre, Post, PreAndPost }\n\n    function pre( address _scheme, bytes32 _params, bytes32 _method ) public returns(bool);\n    function post( address _scheme, bytes32 _params, bytes32 _method ) public returns(bool);\n    /**\n     * @dev when return if this globalConstraints is pre, post or both.\n     * @return CallPhase enum indication  Pre, Post or PreAndPost.\n     */\n    function when() public returns(CallPhase);\n}",
+  "sourcePath": "C:\\Users\\Subhan\\Desktop\\github\\betterbrooklyndao\\Controller\\contracts\\GlobalConstraintInterface.sol",
+  "ast": {
+    "absolutePath": "/C/Users/Subhan/Desktop/github/betterbrooklyndao/Controller/contracts/GlobalConstraintInterface.sol",
+    "exportedSymbols": {
+      "GlobalConstraintInterface": [
+        4295
+      ]
+    },
+    "id": 4296,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 4263,
+        "literals": [
+          "solidity",
+          "^",
+          "0.5",
+          ".4"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:23:7"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": false,
+        "id": 4295,
+        "linearizedBaseContracts": [
+          4295
+        ],
+        "name": "GlobalConstraintInterface",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "canonicalName": "GlobalConstraintInterface.CallPhase",
+            "id": 4267,
+            "members": [
+              {
+                "id": 4264,
+                "name": "Pre",
+                "nodeType": "EnumValue",
+                "src": "85:3:7"
+              },
+              {
+                "id": 4265,
+                "name": "Post",
+                "nodeType": "EnumValue",
+                "src": "90:4:7"
+              },
+              {
+                "id": 4266,
+                "name": "PreAndPost",
+                "nodeType": "EnumValue",
+                "src": "96:10:7"
+              }
+            ],
+            "name": "CallPhase",
+            "nodeType": "EnumDefinition",
+            "src": "68:40:7"
+          },
+          {
+            "body": null,
+            "documentation": null,
+            "id": 4278,
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "pre",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 4274,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 4269,
+                  "name": "_scheme",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 4278,
+                  "src": "128:15:7",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 4268,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "128:7:7",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 4271,
+                  "name": "_params",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 4278,
+                  "src": "145:15:7",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bytes32",
+                    "typeString": "bytes32"
+                  },
+                  "typeName": {
+                    "id": 4270,
+                    "name": "bytes32",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "145:7:7",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bytes32",
+                      "typeString": "bytes32"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 4273,
+                  "name": "_method",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 4278,
+                  "src": "162:15:7",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bytes32",
+                    "typeString": "bytes32"
+                  },
+                  "typeName": {
+                    "id": 4272,
+                    "name": "bytes32",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "162:7:7",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bytes32",
+                      "typeString": "bytes32"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "126:53:7"
+            },
+            "returnParameters": {
+              "id": 4277,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 4276,
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 4278,
+                  "src": "195:4:7",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bool",
+                    "typeString": "bool"
+                  },
+                  "typeName": {
+                    "id": 4275,
+                    "name": "bool",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "195:4:7",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "194:6:7"
+            },
+            "scope": 4295,
+            "src": "114:87:7",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "public"
+          },
+          {
+            "body": null,
+            "documentation": null,
+            "id": 4289,
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "post",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 4285,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 4280,
+                  "name": "_scheme",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 4289,
+                  "src": "221:15:7",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 4279,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "221:7:7",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 4282,
+                  "name": "_params",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 4289,
+                  "src": "238:15:7",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bytes32",
+                    "typeString": "bytes32"
+                  },
+                  "typeName": {
+                    "id": 4281,
+                    "name": "bytes32",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "238:7:7",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bytes32",
+                      "typeString": "bytes32"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 4284,
+                  "name": "_method",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 4289,
+                  "src": "255:15:7",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bytes32",
+                    "typeString": "bytes32"
+                  },
+                  "typeName": {
+                    "id": 4283,
+                    "name": "bytes32",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "255:7:7",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bytes32",
+                      "typeString": "bytes32"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "219:53:7"
+            },
+            "returnParameters": {
+              "id": 4288,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 4287,
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 4289,
+                  "src": "288:4:7",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bool",
+                    "typeString": "bool"
+                  },
+                  "typeName": {
+                    "id": 4286,
+                    "name": "bool",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "288:4:7",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "287:6:7"
+            },
+            "scope": 4295,
+            "src": "206:88:7",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "public"
+          },
+          {
+            "body": null,
+            "documentation": "@dev when return if this globalConstraints is pre, post or both.\n@return CallPhase enum indication  Pre, Post or PreAndPost.",
+            "id": 4294,
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "when",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 4290,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "467:2:7"
+            },
+            "returnParameters": {
+              "id": 4293,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 4292,
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 4294,
+                  "src": "485:9:7",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_enum$_CallPhase_$4267",
+                    "typeString": "enum GlobalConstraintInterface.CallPhase"
+                  },
+                  "typeName": {
+                    "contractScope": null,
+                    "id": 4291,
+                    "name": "CallPhase",
+                    "nodeType": "UserDefinedTypeName",
+                    "referencedDeclaration": 4267,
+                    "src": "485:9:7",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_enum$_CallPhase_$4267",
+                      "typeString": "enum GlobalConstraintInterface.CallPhase"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "484:11:7"
+            },
+            "scope": 4295,
+            "src": "454:42:7",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "public"
+          }
+        ],
+        "scope": 4296,
+        "src": "26:472:7"
+      }
+    ],
+    "src": "0:498:7"
+  },
+  "legacyAST": {
+    "absolutePath": "/C/Users/Subhan/Desktop/github/betterbrooklyndao/Controller/contracts/GlobalConstraintInterface.sol",
+    "exportedSymbols": {
+      "GlobalConstraintInterface": [
+        4295
+      ]
+    },
+    "id": 4296,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 4263,
+        "literals": [
+          "solidity",
+          "^",
+          "0.5",
+          ".4"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:23:7"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": false,
+        "id": 4295,
+        "linearizedBaseContracts": [
+          4295
+        ],
+        "name": "GlobalConstraintInterface",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "canonicalName": "GlobalConstraintInterface.CallPhase",
+            "id": 4267,
+            "members": [
+              {
+                "id": 4264,
+                "name": "Pre",
+                "nodeType": "EnumValue",
+                "src": "85:3:7"
+              },
+              {
+                "id": 4265,
+                "name": "Post",
+                "nodeType": "EnumValue",
+                "src": "90:4:7"
+              },
+              {
+                "id": 4266,
+                "name": "PreAndPost",
+                "nodeType": "EnumValue",
+                "src": "96:10:7"
+              }
+            ],
+            "name": "CallPhase",
+            "nodeType": "EnumDefinition",
+            "src": "68:40:7"
+          },
+          {
+            "body": null,
+            "documentation": null,
+            "id": 4278,
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "pre",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 4274,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 4269,
+                  "name": "_scheme",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 4278,
+                  "src": "128:15:7",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 4268,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "128:7:7",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 4271,
+                  "name": "_params",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 4278,
+                  "src": "145:15:7",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bytes32",
+                    "typeString": "bytes32"
+                  },
+                  "typeName": {
+                    "id": 4270,
+                    "name": "bytes32",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "145:7:7",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bytes32",
+                      "typeString": "bytes32"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 4273,
+                  "name": "_method",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 4278,
+                  "src": "162:15:7",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bytes32",
+                    "typeString": "bytes32"
+                  },
+                  "typeName": {
+                    "id": 4272,
+                    "name": "bytes32",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "162:7:7",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bytes32",
+                      "typeString": "bytes32"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "126:53:7"
+            },
+            "returnParameters": {
+              "id": 4277,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 4276,
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 4278,
+                  "src": "195:4:7",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bool",
+                    "typeString": "bool"
+                  },
+                  "typeName": {
+                    "id": 4275,
+                    "name": "bool",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "195:4:7",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "194:6:7"
+            },
+            "scope": 4295,
+            "src": "114:87:7",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "public"
+          },
+          {
+            "body": null,
+            "documentation": null,
+            "id": 4289,
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "post",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 4285,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 4280,
+                  "name": "_scheme",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 4289,
+                  "src": "221:15:7",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 4279,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "221:7:7",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 4282,
+                  "name": "_params",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 4289,
+                  "src": "238:15:7",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bytes32",
+                    "typeString": "bytes32"
+                  },
+                  "typeName": {
+                    "id": 4281,
+                    "name": "bytes32",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "238:7:7",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bytes32",
+                      "typeString": "bytes32"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 4284,
+                  "name": "_method",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 4289,
+                  "src": "255:15:7",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bytes32",
+                    "typeString": "bytes32"
+                  },
+                  "typeName": {
+                    "id": 4283,
+                    "name": "bytes32",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "255:7:7",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bytes32",
+                      "typeString": "bytes32"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "219:53:7"
+            },
+            "returnParameters": {
+              "id": 4288,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 4287,
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 4289,
+                  "src": "288:4:7",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bool",
+                    "typeString": "bool"
+                  },
+                  "typeName": {
+                    "id": 4286,
+                    "name": "bool",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "288:4:7",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "287:6:7"
+            },
+            "scope": 4295,
+            "src": "206:88:7",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "public"
+          },
+          {
+            "body": null,
+            "documentation": "@dev when return if this globalConstraints is pre, post or both.\n@return CallPhase enum indication  Pre, Post or PreAndPost.",
+            "id": 4294,
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "when",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 4290,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "467:2:7"
+            },
+            "returnParameters": {
+              "id": 4293,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 4292,
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 4294,
+                  "src": "485:9:7",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_enum$_CallPhase_$4267",
+                    "typeString": "enum GlobalConstraintInterface.CallPhase"
+                  },
+                  "typeName": {
+                    "contractScope": null,
+                    "id": 4291,
+                    "name": "CallPhase",
+                    "nodeType": "UserDefinedTypeName",
+                    "referencedDeclaration": 4267,
+                    "src": "485:9:7",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_enum$_CallPhase_$4267",
+                      "typeString": "enum GlobalConstraintInterface.CallPhase"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "484:11:7"
+            },
+            "scope": 4295,
+            "src": "454:42:7",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "public"
+          }
+        ],
+        "scope": 4296,
+        "src": "26:472:7"
+      }
+    ],
+    "src": "0:498:7"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.5.8+commit.23d335f2.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.0.11",
+  "updatedAt": "2019-07-17T22:56:36.934Z",
+  "devdoc": {
+    "methods": {
+      "when()": {
+        "details": "when return if this globalConstraints is pre, post or both.",
+        "return": "CallPhase enum indication  Pre, Post or PreAndPost."
+      }
+    }
+  },
+  "userdoc": {
+    "methods": {}
+  }
+}
