@@ -3,6 +3,7 @@
   "dependencies": {
     "@daostack/client": "^0.1.30",
     "@daostack/migration": "0.0.1-rc.16-v1",
+    "@dorgtech/daocomponents": "0.0.3-alpha",
     "dotenv": "^8.0.0",
     "web3": "1.0.0-beta.37"
   }
