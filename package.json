@@ -1,20 +1,6 @@
 {
   "name": "betterbrooklyndao",
-  "scripts": {
-    "start": "concurrently \"npm:start:app\" \"npm:start:env\"",
-    "start:app": "react-scripts start",
-    "start:env": "docker-compose -f ./node_modules/@daostack/client/docker-compose.yml up graph-node",
-    "stop:env": "docker-compose -f ./node_modules/@daostack/client/docker-compose.yml down -v",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
   "dependencies": {
-    "@daostack/client": "^0.1.30",
-    "@daostack/migration": "0.0.1-rc.16-v1",
-    "@dorgtech/daocomponents": "0.0.3-alpha",
-    "dotenv": "^8.0.0",
-    "web3": "1.0.0-beta.37"
+    "@daostack/migration": "0.0.1-rc.19-v7"
   }
-
 }

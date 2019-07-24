@@ -12,11 +12,11 @@
     {
       "boostedVotePeriodLimit": 129600,
       "daoBountyConst": 10,
-      "minimumDaoBountyGWei": 50000000000,
+      "minimumDaoBounty": 50000000000,
       "queuedVotePeriodLimit": 604800,
       "queuedVoteRequiredPercentage": 50,
       "preBoostedVotePeriodLimit": 43200,
-      "proposingRepRewardGwei": 0,
+      "proposingRepReward": 0,
       "quietEndingPeriod": 86400,
       "thresholdConst": 1200,
       "voteOnBehalf": "0x0000000000000000000000000000000000000000",
